@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        table{
+            width: 1000px;
+            margin: 0 auto;
+            border-collapse: collapse;
+            margin-top: 40px;
+        }
+        td, th{
+            padding: 10px;
+        }
+        .c{
+            width: 1000px;
+            margin: 0 auto;
+        }
+        div{
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+        button{
+            padding: 10px;
+            margin-left: 20px;
+            background: rgb(255, 0, 0);
+            border: 0;
+            border-radius: 4px;
+            color: white;
+            font-size: 20px;
+        }
+        button:hover{
+            background: rgb(180, 117, 117);
+        }
+    </style>
+</head>
+<body>
+    <div class="c">
+        <h1>
+            Foydalanuvchilar ro'yhati
+        </h1>
+        <div>
+            <button onclick="erkak()">Erkaklar</button>
+            <button onclick="ayollar()">Ayollar</button>
+            <button onclick="filter()">Voyaga yetganlar</button>
+            <button onclick="sort()">So'rtlash</button>
+        </div>
+    </div>
+
+    <table border="1">
+        <tr id="tr">
+            <th>Ismiii</th>
+            <th>Yoshi</th>
+            <th>Yili</th>
+            <th>Jinsi</th>
+            <th>No'meri</th>
+        </tr>
+        <tbody id="tbody">
+            <tr>
+                <td>caqe</td>
+                <td>caqe</td>
+                <td>caqe</td>
+                <td>caqe</td>
+                <td>caqe</td>
+            </tr>
+            <tr>
+                <td>caqe</td>
+                <td>caqe</td>
+                <td>caqe</td>
+                <td>caqe</td>
+                <td>caqe</td>
+            </tr>
+            <tr>
+                <td>caqe</td>
+                <td>caqe</td>
+                <td>caqe</td>
+                <td>caqe</td>
+                <td>caqe</td>
+            </tr>
+        </tbody>
+    </table>
+<p id="pp"></p>
+
+    
+
+<p id="demo"></p>
+
+
+
+    
+    <script src="app.js"></script>
+</body>
+</html>
